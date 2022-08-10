@@ -8,7 +8,7 @@ var log4js = require('log4js');
 
 log4js.configure({
   appenders: [
-    { type: 'console' }, //控制台输出
+    { type: 'console' }, //控制台输出xxx
     {
       type: 'datefile', //文件输出
       filename: 'logs/log',
